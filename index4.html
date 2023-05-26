@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Javascript</title>
+
+    <style>
+
+    </style>
+
+</head>
+
+<body>
+
+    <h1>JavaScript</h1>
+
+    <button onclick="clickMe()">
+        Click me
+    </button>
+
+    <button onclick="sum(200,30)">
+        Sum
+    </button>
+
+    <button onclick="checkAge()">
+        Check Age
+    </button>
+
+    <script>
+
+        function checkAge() {
+            var age = prompt("Enter your age");
+
+            if(age >= 18){
+                alert("You are eligible to vote");
+            } else {
+                alert("You are not eligible to vote");
+            }
+        }
+
+        function clickMe() {
+            alert("You clicked me");
+        }
+
+        function sum(x, y) {
+            var a = x;
+            var b = y;
+            var sum = a + b;
+            alert(sum);
+        }
+
+
+
+    </script>
+</body>
+
+</html>

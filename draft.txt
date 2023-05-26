@@ -1,0 +1,21 @@
+        var myVariable = 50; //number
+        var myString = "Hello"; //string
+        var myBoolean = true; //boolean
+        
+        document.write(myVariable);
+        document.write("<br>");
+        document.write(myString);
+        document.write("<br>");
+        document.write(myBoolean);
+        document.write("<br>");
+
+        // date
+        var myDate = new Date();
+        document.write(myDate);
+        
+        document.write("<br>");
+
+        // math
+        var x = Math.pow(2, 6);
+        document.write(x);
+
